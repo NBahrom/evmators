@@ -1,0 +1,786 @@
+
+@media(max-width: 1260px) {
+   /*  .column{
+        width: 10.8vw !important;
+    } */
+    .mySlides6, .mySlides5, .mySlides4, .mySlides3, .mySlides2, .mySlides{
+        width: 44vw;
+    }
+    .in__slide{
+        width: 47vw;
+    }
+    .prev {
+        margin-right: calc(31vh + 27vw);
+    }
+
+    .mark__title{
+        font-size: 1.4vw;
+    }
+
+    .mark__img{
+        width: 3.5vw;
+    }
+
+    .inner_page_splide{
+        left: calc(8vh + 8vw);
+    }
+
+    .row {
+        width: 41vw !important;
+    }
+    
+    .mod{
+        top: 0%;
+        left: 0;
+    }
+
+}
+
+@media(max-width:1050px){
+    .mobile__scroll{
+        scroll-snap-type: y mandatory;
+        overflow-y: scroll;
+        height: 100vh;
+    }
+
+    .in_page_main_inner {
+        min-height: 93vh;
+    }
+
+    .cd-section{
+        scroll-snap-align: start;
+    }
+
+    .header {
+        display: none;
+    }
+    .mark_bar{
+        display: none;
+    }
+
+    .main__title{
+        margin-left: 0px !important;
+    }
+
+    .main__title h4{
+        text-align: center;
+    }
+
+
+    .row{
+        display: none !important;
+        width: 500px !important;
+    }
+
+    .in__slide{
+        left: 43%;
+    }
+
+    .in__slide h3{
+        font-size: 3.4vw;
+    }
+
+    .main__title a {
+        font-size: 1.7vw;
+    }
+
+    .about__car{
+        margin-bottom: 90px;
+    }
+    
+    .main__title span{
+        font-size: 1.7vw;
+    }
+
+    .mySlides{
+        margin-left:81px ;
+    }
+
+    .inner__page_container .mark_bar{
+        display: block;
+    }
+
+    .main .slider__mark img{
+        width: 100vw;
+    }
+    
+    .mySlides{
+        margin-left: 0px !important;
+    }
+
+    .main__header__slider{
+        margin-top: calc(10vh + 10vw);
+        justify-content: center;
+    }
+    .in__slide{
+        left: 22%;
+    }
+
+    .mySlides6, .mySlides5, .mySlides4, .mySlides3, .mySlides2, .mySlides {
+        margin-top: 13vh;
+    }
+    
+    .splide {
+        display: none;
+    }
+    .about_body .splide{
+        display: block ;
+    }
+
+    .footer__mobile{
+        display: block;
+
+    }
+
+    .main__call{
+        display: block;
+    }
+
+    .main__sociable {
+        width: 100%;
+        justify-content: center;
+        right: -2%;
+        bottom: 5vh;
+        flex-direction: unset;
+    }
+
+    .main__sociable div{
+        margin-right: 35px;
+    }
+
+    .main__cursor{
+        display: none;
+    }
+
+
+    .mark__span{
+        width: 10px;
+        height: 10px;
+        margin-left: 10px;
+        margin-right: 11px;
+    }
+
+    .about__footer{
+        display: none !important;
+    }
+
+    .car1__inner{
+        flex-direction: column;
+    }
+
+    .inner__page_content{
+        height: auto;
+    }
+
+    .in_page_main_head{
+        overflow: scroll;
+    }
+
+    .inner__page_main_sociable{
+        display: none;
+    }
+
+    .icon__down_for_information{
+        display: none;
+    }
+
+    .right__information{
+        overflow: unset !important;
+        overflow-x: unset;
+        height: auto;
+    }
+
+    .right__information::after{
+        display: none;
+    }
+
+    .left__content{
+        width: 100%;
+    }
+
+    .row2{
+        margin-left: 50px;
+        width: 50%;
+
+    }
+
+    .top__together{
+        margin-bottom: 100px;
+    }
+
+    .left__slider{
+        margin-top: 0;
+    }
+
+    .left__slider .slider__arrow_next,.slider__arrow_prev{
+        top: 20% !important;
+    }
+
+    .inner__head__slider{
+        height: 250px;
+    }
+
+    .right__information{
+        width: 100%;
+    }
+
+    .inpage_content_title{
+        text-align: center;
+    }
+
+    .inpage__content_type_inner{
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .inpage__content_type{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .inpage__content_color{
+        justify-content: center;
+    }
+
+    .inpage__content_type_inner {
+        font-size: 16px;
+        padding: 13px 13px;
+    }
+
+    .inpage_content_title{
+        font-size: 16px;
+    }
+
+    .inpage__content_color_inner{
+        width: 40px;
+        height: 40px;
+    }
+
+    .car__information_title{
+        font-size: 16px;
+    }
+
+    .car__information_text{
+        font-size: 13px;
+    }
+
+    .modal__menu{
+        display: block;
+    }
+
+    .world__icon_decstop{
+        display: none;
+    }
+
+    .decstop_none{
+        display: block;
+    }
+
+    .language p{
+        padding: 0;
+        width: fit-content;
+    }
+
+    .language{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:980px){
+
+    .column h5{
+        font-size: 1.5vw;
+    }
+
+  /*   .column{
+        width: 14.8vw !important;
+    } */
+
+    .main__title a{
+        font-size: 1.6vw;
+    }
+
+    .main__title span{
+        font-size: 1.6vw;
+    }
+    
+    .in__slide h3{
+        font-size: 3.4vw;
+    }
+
+    .mySlides6, .mySlides5, .mySlides4, .mySlides3, .mySlides2, .mySlides{
+        width: 52vw;
+    }
+
+    .mark__title {
+        font-size: 1.8vw;
+    }
+    
+    .mark__img {
+        width: 4.4vw;
+    }
+
+    .mark__span::after{
+        margin-left: calc(0.25vh + 0.25vw);
+    }
+
+    .stick__top::before {
+        margin-left: calc(0.25vh + 0.25vw);
+    }
+
+    .splide{
+        width: 20.9vw;
+    }
+
+
+        .inner__page_container.active .in_page_main{
+        transform: perspective(1300px) rotateY(-20deg) translateZ(125px) scale(0.5);
+    }
+
+    @keyframes main-animation{
+        from {
+          transform: translate(0);
+        }
+        to {
+            transform: perspective(1300px) rotateY(-20deg) translateZ(125px) scale(0.5);
+        }
+      }
+
+      .close__window2 {
+        width: 60%;
+        height: 60%;
+    }
+}
+
+@media(max-width:904px){
+    .contanct_content{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .block__fo__this{
+        width: 422px !important;
+    }
+    .footer__marks h5{
+        width: min-content;
+    }
+    .mark__title::after{
+        left: 53.2%;
+    }
+    .slider__mark img{
+        width: 5vw;
+    }
+}
+
+@media(max-width:734px){
+    .row {
+        width: 427px !important;
+    }
+    
+    .slider__mark{
+        top: -87px;
+        left: 44%;
+        right: 36%;
+    }
+
+    .in__slide{
+        bottom: 48%;
+    }
+    
+    .main__header__slider{
+        flex-direction: column;
+           margin-top: calc(10vh + 10vw);
+    }
+
+    .main .slider__mark{
+        margin-bottom: 28px;
+        margin-left: 16px;
+    }
+    
+
+    .in__slide h3{
+        font-size: 4.4vw;
+    }
+
+    .main__title a{
+        font-size   : 2.5vw  ;
+    }
+
+    .main__title span{
+        font-size   : 2.5vw  ;
+    }
+
+    .mySlides6, .mySlides5, .mySlides4, .mySlides3, .mySlides2, .mySlides{
+        width: 61vw;
+        margin-top: 18vh;   
+    }
+
+    .main__slider__arrows {
+        top: 80%;
+    }
+
+    .mark__title {
+        font-size: 2.4vw;
+    }
+
+    .mark__img {
+        width: 5.6vw;
+    }
+
+    .splide {
+        width: 25.9vw;
+    }
+
+    .footer__modal_window{
+        width: 35%;
+    }
+}
+
+@media(max-width:623px){
+    .row {
+        width: 55vw !important;
+    }
+
+   /*  .column {
+        width: 21.8vw !important;
+    } */
+    .column h5 {
+        font-size: 2.5vw;
+    }
+
+    .mark__title::after {
+        left: 53.2%;
+    }
+
+    .mark__span::after {
+        margin-left: calc(0.25vh + 0.25vw);
+    }
+
+    .stick__top::before{
+        margin-left: calc(0.25vh + 0.25vw);
+    }
+
+    .footer__modal_window {
+        width: 38%;
+    }
+
+    .splide {
+        width: 29.9vw;
+    }
+
+    .inner_page_splide {
+        left: calc(1vh + 1vw);
+        bottom: calc(10vh + 10vw);
+    }
+
+    .slider__mark img {
+        width: 7vw;
+    }
+}
+
+@media(max-width:570px){
+    .mark__title::after {
+        left: 52%;
+    }
+    
+}
+
+@media(max-width:470px){
+    .write__contact_number{
+        flex-direction: column;
+    }
+
+    .for_margin{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .block__fo__this{
+        width: 263px !important ;
+    }
+
+    .prev{
+        margin-right: 65vw;
+    }
+
+    .in__slide h3{
+        font-size: 6.4vw;
+    }
+    
+
+    .main__title a{
+        font-size: 3.5vw;
+    }
+
+    .main__title span{
+        font-size: 3.5vw;
+    }
+
+    .row {
+        width: 160px !important;
+    }
+
+    .main .slider__mark img{
+        width: 13vw;
+    }
+    
+
+    /* .column {
+        width: 131px !important;
+    } */
+
+    .in__slide {
+        bottom: 40%;
+    }
+
+    .footer__modal_window {
+        width: 46%;
+    }
+
+    .splide {
+        width: 39.9vw;
+    }
+
+    .mark__title {
+        font-size: 3.4vw;
+    }
+
+    .mark__img {
+        width: 7.57vw;
+    }
+
+
+    .mark__title::after {
+        left: 50%;
+    }
+
+    .row2 .slider__arrow_prev,.slider__arrow_next{
+        top: 40%;
+    }
+
+    .head__slider{
+        flex-direction: column;
+    }
+
+    .row2{
+        margin-left: 0px !important;
+        margin-top: 35px;
+    }
+
+    .inner_page_mark_and_button{
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .slider__mark{
+        width: 100%;
+        border-left: 0;
+        padding-left: 0;
+    }
+   
+    .slider__mark img {
+        width: 10vw;
+    }
+
+    .left__title{
+        margin-top: 17px;
+    }
+
+    .left__slider .slider__arrow_next{
+        right: 0%;
+        font-size: 18px;
+    }
+    
+    .left__slider .slider__arrow_prev{
+        left: -6%;
+        font-size: 18px;
+    }
+
+    .inner__head__slider {
+        height: 200px;
+    }
+
+    .all__marks{
+        display: none;
+    }
+
+    .left__slider__div  img{
+        width: 90%;
+    }
+
+    .main__car_img::after{
+        display: none;
+    }
+
+    .main__car_img::before{
+        display: none;
+    }
+}
+
+@media(max-width:415px){
+    .splide {
+        width: 36.9vw;
+        height: 53vh;
+        bottom: calc(13vh + 13vw);
+    }
+
+    .inner__page_container.active .in_page_main {
+        transform: perspective(1300px) rotateY(-20deg) translateZ(42px) scale(0.5);
+    }
+
+    @keyframes main-animation{
+        from {
+          transform: translate(0);
+        }
+        to {
+            transform: perspective(1300px) rotateY(-20deg) translateZ(42px) scale(0.5);
+        }
+      }
+}
+
+
+@media(max-width:400px){
+
+    .mark__title{
+        padding: 0.7vh 2.5vw;
+    }
+
+    .mark__span::after {
+        margin-left: calc(0.35vh + 0.35vw);
+    }
+    .stick__top::before{
+        margin-left: calc(0.35vh + 0.35vw);
+    }
+
+    .splide {
+        width: 46.9vw;
+        bottom: calc(15vh + 15vw);
+    }
+
+    .prev, .next{
+        font-size: 19px;
+    }
+
+
+}
+
+
+@media(max-width:350px){
+    .prev{
+        margin-right: 62vw;
+    }
+  
+}
+
+
+@media(max-height:740px){
+    .splide{
+        height: 75vh;
+        bottom: 13%;
+    }
+
+    .left__slider{
+        margin-top: 0;
+    }
+
+}
+
+@media(max-height:655px){
+    .modal__menu_inner{
+        height: 65vh;
+    }
+}
+
+
+
+
+@media(max-height:490px){
+    .mySlides6, .mySlides5, .mySlides4, .mySlides3, .mySlides2, .mySlides{
+        margin-top: 10vh;
+    }
+
+    .modal__menu_inner{
+        height: 60vh;
+    }
+
+    .main__title h4{
+        margin-bottom: 10px;
+    }
+
+    .main__title {
+        margin-top: 50px;
+    }
+}
+
+@media(max-height:420px){
+    .main__title{
+        margin-top: 0;
+        height: 77vh;
+        gap: 20px;
+    }
+
+    .main__title img{
+        margin-bottom: 0;
+    }
+
+    .main__title h4{
+        margin-bottom: 0;
+    }
+
+    .main__content{
+        margin-top: 0;
+    }
+
+    .mySlides6, .mySlides5, .mySlides4, .mySlides3, .mySlides2, .mySlides {
+        margin-top: 60px;
+        width: 26vw;
+    }
+    
+
+    .in__slide{
+        height: auto;
+        gap: 0;
+        bottom: 40%;
+    }
+
+    .main__car_img::before{
+        top: -18px;
+    }
+
+    .in__slide h3{
+        margin-bottom: 30px;
+    }
+
+    .main__car_img::after{
+        top: -34px;
+    }
+
+    .main__header__slider{
+        margin-top: 40px;
+    }
+
+    .splide__track{
+        top: -45px;
+        height: 95vh !important;
+    }
+
+    .modal__menu_inner{
+        height: 50vh;
+    }
+
+    .splide{
+        width: fit-content;
+    }
+
+    .main__sociable {
+        width: 100%;
+        justify-content: space-between;
+        right: -1%;
+        bottom: 30vh;
+        flex-direction: column;
+    }
+}

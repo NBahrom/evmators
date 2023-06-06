@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'icomoon-R';
+  src:  url('../fonts/icomoon-R.eot?rjz593');
+  src:  url('../fonts/icomoon-R.eot?rjz593#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon-R.ttf?rjz593') format('truetype'),
+    url('../fonts/icomoon-R.woff?rjz593') format('woff'),
+    url('../fonts/icomoon-R.svg?rjz593#icomoon-R') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-R"]::before, [class*=" icon-R"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon-R' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Rfacebook-f:before {
+  content: "\e900";
+}
+.icon-Rfi-rr-align-left:before {
+  content: "\e901";
+  color: #fff;
+}
+.icon-Rfi-rr-angle-left:before {
+  content: "\e902";
+}
+.icon-Rfi-rr-angle-right:before {
+  content: "\e903";
+}
+.icon-Rfi-rr-arrow-right:before {
+  content: "\e904";
+  color: #fff;
+}
+.icon-Rfi-rr-at:before {
+  content: "\e905";
+}
+.icon-Rfi-rr-marker:before {
+  content: "\e906";
+}
+.icon-Rfi-rr-phone-call:before {
+  content: "\e907";
+}
+.icon-Rfi-sr-angle-down:before {
+  content: "\e908";
+  color: #fff;
+}
+.icon-Rinstagram:before {
+  content: "\e909";
+}
+.icon-Rlong-arrow-alt-left:before {
+  content: "\e90a";
+}
+.icon-Rlong-arrow-alt-right:before {
+  content: "\e90b";
+}
+.icon-Rtelegram-plane:before {
+  content: "\e90c";
+}
+.icon-Rworld:before {
+  content: "\e90d";
+}
